@@ -96,9 +96,9 @@ const Question = (props) => {
     const next =()=>{
         if(myquestions[currentQuestion].Answer == correctanswer){
     setMyscore(myScore+1)
-    console.log(correctanswer)
         }
             setCurrentQuestion(currentQuestion+1)
+         setAnswer("")
         }
     
     const preview =()=>{
